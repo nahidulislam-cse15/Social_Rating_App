@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fc34bf09"
+    tools:context=".Find_Friends">
+
+    <ListView
+        android:id="@+id/listviweid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#874b33"
+android:dividerHeight="2dp"
+        android:listSelector="#207135"
+        android:text="Find Friends"
+        android:textSize="30sp"/>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mdnahidulislam.demoproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SOCIAL RATING APP"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".signup" />
+        <activity android:name=".Home" />
+        <activity android:name=".Friends" />
+        <activity android:name=".Find_Friends" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Message" />
+        <activity android:name=".RequestedFrnd" />
+        <activity android:name=".RatingFriends"></activity>
+    </application>
+
+</manifest>

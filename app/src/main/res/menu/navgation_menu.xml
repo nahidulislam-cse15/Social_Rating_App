@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/nav_home"
+    android:title="HOME" />
+
+    <item
+        android:id="@+id/nav_frnd"
+        android:title="FRIENDS" />
+    <item
+    android:id="@+id/nav_ffrnd"
+    android:title="FIND_FRIENDS" />
+    <item
+        android:id="@+id/nav_msg"
+        android:title="MESSAGE" />
+    <item
+        android:id="@+id/nav_set"
+        android:title="SETTINGS" />
+    <item
+        android:id="@+id/nav_req"
+        android:title="REQUESTEDFRIENDS"
+        />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="LOG OUT"
+        />
+
+</menu>

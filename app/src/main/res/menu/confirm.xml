@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/acceptid"
+    android:title="ACCEPT"
+   />
+    <item
+        android:id="@+id/cancelid"
+        android:title="CANCEL" />
+    <item
+        android:id="@+id/nav_home"
+        android:title="HOME" />
+</menu>
